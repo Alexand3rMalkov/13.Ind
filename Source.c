@@ -30,6 +30,6 @@ main() {
 	}
 	maxLen += number; 
 	printf("Самое длинное слово:\n"); 
-	for (i = index; i < maxLen; i++) 
+	for (i = number; i < maxLen; i++) 
 		putchar(s[i]);
 }
